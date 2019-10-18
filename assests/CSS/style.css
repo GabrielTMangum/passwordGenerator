@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(196, 224, 226);
+} .dotted{
+    border-style: dashed;
+} 
+@media (max-width: 770px){
+    button{
+        margin: auto auto;
+        clear: left;
+    }
+}
