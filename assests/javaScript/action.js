@@ -1,4 +1,6 @@
-// document.getElementById("button5").
-addEventListener("click",function(){
-    alert("hello world")
+function genPass (){
+    document.getElementById("exampleFormControlTextarea1").innerHTML = "Placeholder Text";
+}
+function copyToClip(){
+
 }
