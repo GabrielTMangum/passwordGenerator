@@ -14,8 +14,11 @@
 </head>
 
 <body>
+    <!-- Header -->
     <h1 class="text-center p-5">Password Generator</h1>
 
+
+<!-- This is the title card that holds the rest of the content for the page -->
     <div class="container shadow p-3 mb-5 bg-white rounded">
         <div class="row">
             <div class="col-md-12">
@@ -23,15 +26,19 @@
                     <div class="card-body">
                         <h3 class="card-subtitle mb-2 mt-5">Generate a password</h3>
                         <hr>
+                        <!-- This is the field where your password is pasted after generation -->
                         <textarea class="form-control text-center rounded dotted" id="exampleFormControlTextarea1"
                             rows="5" placeholder="Your Random Password"></textarea>
                         <hr>
+                        <!-- This is the row that both buttons are on. -->
                         <div class="row">
                             <div class="col-6 d-flex justify-content-center">
+                                <!-- This is the generate password button -->
                                 <button onclick="genPass()" id="generatePassword" type="button" class="btn btn-danger round btn-lg rounded-pill ml-5">Generate
                                     Password</button>
                             </div>
                             <div class="col-6 d-flex justify-content-center">
+                                <!-- This is the button that copys the password to your clipboard -->
                                 <button onclick="copyToClip ()" id="copyToClipboard" type="button"
                                     class="btn btn-light round  btn-lg rounded-pill" disabled>Copy to
                                     Clipboard</button>
@@ -42,6 +49,7 @@
             </div>
         </div>
     </div>
+    <!-- This is where I link both the bootstrap and my own JS files -->
     <script src="./assests/javaScript/action.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
